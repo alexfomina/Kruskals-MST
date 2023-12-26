@@ -1,10 +1,9 @@
-1. 
-a. Alexandra Fomina
-b. 2429114
-c. fomina@chapman.edu
-d. CPSC350-01
-e. Programming Assingment 6
-2. MST implementation for a weighted graph
-3. No known errors
-4. Sources:
-5. g++ -o A *.cpp
+A program that is capable of identifying a minimum spanning tree of an undirected, weighted graph using Kruskal’s algorithm.
+
+The program takes as a command line argument the name of a file that contains the specification for an undirected, weighted graph, G. The file will have the following format:
+The first line will be an integer, N, that represents the number of nodes in the graph.
+The next N lines will represent the rows of the adjacency matrix, with each line consisting of N weights, represented as doubles.
+The last line in the file will consist of the string “END.”
+
+The program will display the cost of the MST (the sum of all the edges in the MST) to standard output and the adjacency matrix representation of the MST (an NxN matrix where all edges are 0 except for the edges that make up the MST) to standard output.
+
